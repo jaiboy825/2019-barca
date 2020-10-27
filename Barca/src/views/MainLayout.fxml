@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.MainController">
+   <children>
+      <Pane layoutX="348.0" layoutY="34.0" prefHeight="602.0" prefWidth="575.0" style="-fx-background-color: rgba(255,216,216,0.5); -fx-background-radius: 5.0px;">
+         <children>
+            <Label fx:id="contentLabel" alignment="TOP_LEFT" layoutX="14.0" layoutY="247.0" prefHeight="341.0" prefWidth="548.0" style="-fx-background-color: rgb(232,217,255);" text="항목을 선택해 주세요.">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <ImageView fx:id="imgLogo" fitHeight="217.0" fitWidth="548.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <Pane layoutX="24.0" layoutY="196.0" prefHeight="440.0" prefWidth="316.0" style="-fx-background-color: rgba(218,217,255,0.5); -fx-background-radius: 5.0px;">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#teamhistory" prefHeight="34.0" prefWidth="287.0" style="-fx-background-color: rgba(255,216,216);" text="구단 정보">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="59.0" mnemonicParsing="false" onAction="#SPlayer" prefHeight="34.0" prefWidth="287.0" style="-fx-background-color: rgba(255,216,216);" text="선수 정보(19-20스쿼드,레전드)">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="106.0" mnemonicParsing="false" onAction="#Rs" prefHeight="34.0" prefWidth="287.0" style="-fx-background-color: rgba(255,216,216);" text="팀 관련 사이트">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <ListView fx:id="titleList" layoutX="14.0" layoutY="159.0" prefHeight="217.0" prefWidth="287.0" style="-fx-background-color: rgba(255,216,216);" />
+            <Button layoutX="224.0" layoutY="392.0" mnemonicParsing="false" onAction="#view" prefHeight="34.0" prefWidth="77.0" style="-fx-background-color: rgba(255,216,216);" text="보기" />
+         </children>
+      </Pane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="76.0" prefHeight="51.0" prefWidth="166.0" style="-fx-background-color: rgba(250,244,192,0);" text="Força Barça" textFill="#ff2f2f">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
