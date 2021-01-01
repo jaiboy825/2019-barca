@@ -3,3 +3,5 @@
 
 ### 구단 역사와 출신 선수, 관련 사이트 등을 보여준다
 ![BARCA](https://user-images.githubusercontent.com/55534787/100031666-87208100-2e39-11eb-8ec3-952e3f3ca375.png)
+
+-바르셀로나 선수 및 정보 출처 : 나무위키 
